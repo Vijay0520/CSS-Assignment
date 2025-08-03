@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    gap: 200px;
+    margin:20px 60px 100px 60px;
+    justify-content: center;
+}
+.logo{
+    font-size: 0.9rem;
+    font-family:  sans-serif;
+    color: #222;
+   
+}
+.List{
+display: flex;
+list-style: none;
+gap: 20px;
+font-size: .9em;
+font-family:  sans-serif;
+color: #888;
+}
+.li{
+
+}
+.username{
+    width: 100px;
+    height: 40px;
+    margin-top:-10px;
+    padding: 10px;
+    color:blue;
+    border-radius: 8px;
+    background-color:lightblue;
+    font-family: sans-serif ;
+}
+.hero{
+    display: flex;
+    margin: 100px;
+    gap: 100px;
+    justify-content:space-evenly;
+        align-items: center;
+    }
+    .text{
+        width: 280px;
+        height: 300px;
+    }
+    .text1{
+        color: #444;
+        font-family:sans-serif ;
+    }
+    .text2{
+        color:rgb(36, 106, 182);
+        font-family:sans-serif ;
+    }
+    .text3{
+        color: #777;
+        font-family:sans-serif ;
+    }
+    .text4{
+        margin-top: 20px;
+        width: 200px;
+        height: 60px;
+        padding: 20px;
+        background-color: rgb(37, 93, 165);
+        border-radius: 10%;
+        color: aliceblue;
+        font-family: sans-serif;
+    }
+    .image{
+        width: 400px;
+       border: 1px solid white;
+       border-radius: 10%;
+        height: 300px;
+         background-blend-mode: hard-light;
+         background-size: cover;
+        
+
+    }
